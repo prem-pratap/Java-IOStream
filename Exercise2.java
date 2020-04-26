@@ -1,3 +1,12 @@
+/*Write a program to copy contents from one file to another and check the output.
+
+Sample Input and Output:
+Enter the input file name
+Input.txt
+Enter the output file name
+Output.txt
+File is copied.*/
+
 import java.io.*;
 import java.lang.Exception;
 public class Exercise2 {
@@ -35,8 +44,6 @@ public class Exercise2 {
 			System.out.println("Failure");
 		
 		brobj.close();
-		foutput.flush();
-		
 	}
 
 }

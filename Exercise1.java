@@ -1,7 +1,15 @@
-import java.io.*;
+/*Write a program to count the number of times a character appears in a File. 
 
+[Note :  The character check is case insensitive... i.e, 'a' and 'A' are considered to be the same]
 
+Sample Input and Output:
+Enter the file name
+Input.txt
+Enter the character to be counted
+r
+File 'Input.txt' has 99 instances of letter 'r'.*/
 
+import java.io.*; 
 public class Exercise1 {
 
 	public static void main(String[] args) throws IOException,FileNotFoundException {
@@ -31,10 +39,11 @@ public class Exercise1 {
 			System.out.println("File not found");	
 		}catch(IOException ie) {
 			System.out.println("Input Output Exception");
-		}//System.out.println(count);
+		}
 		
 		
 		
 	}
 
 }
+
