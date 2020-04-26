@@ -1,3 +1,11 @@
+/*Create a class called Employee with properties name(String),dateOfBirth(java.util.Date),department(String),designation(String) and Salary(double).
+
+Create respective getter and setter methods and constructors (no-argument constructor and parameterized constructor) for the same.
+
+Create an object of the Employee class and save this object in a file called "data" using serialization.
+Later using deserialization read this object and print the properties of this object.*/
+
+
 import java.io.*;
 import java.util.Date;
 class Employee implements Serializable {
